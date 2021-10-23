@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
   ffi: ^1.1.2
 
 dev_dependencies:
@@ -32,3 +34,6 @@ flutter:
         pluginClass: FlutterMicroEccPlugin
       macos:
         pluginClass: FlutterMicroEccPlugin
+      web:
+        pluginClass: FlutterMicroEccWebPlugin
+        fileName: flutter_micro_ecc_web.dart
